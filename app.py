@@ -1,6 +1,5 @@
-#A function used to convert days to years
-def daysToYears (days):
-    years = days/365
-    return years
-
-print(daysToYears(21215))
+import datetime
+input("Enter number of seconds: ")
+def convert(Sekunde):
+    return str(datetime.timedelta(seconds = Sekunde))
+print(convert(Sekunde))
